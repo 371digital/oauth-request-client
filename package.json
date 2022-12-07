@@ -1,0 +1,41 @@
+{
+  "name": "oauth-request-client",
+  "version": "1.0.0",
+  "description": "371Digital oAuth Request Client",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "yarn build --watch",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "371Digital",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/371digital/oauth-request-client"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.3",
+    "axios": "^0.27.2"
+  },
+  "bugs": {
+    "url": "https://github.com/371digital/oauth-request-client/issues"
+  },
+  "homepage": "https://github.com/371digital/oauth-request-client",
+  "keywords": [
+    "371Digital",
+    "react",
+    "figma",
+    "oauth",
+    "client",
+    "apiclient",
+    "request"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-plugin-module-resolver": "^4.1.0"
+  },
+  "license": "ISC"
+}
