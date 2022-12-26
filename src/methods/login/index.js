@@ -1,7 +1,7 @@
 import { axios } from "services";
 import { endPoints } from "_constants";
 
-const getUserData = async (mail, password) => {
+const login = async (mail, password) => {
     const data = await axios.post(endPoints.login, {
         password,
         mail
@@ -10,4 +10,4 @@ const getUserData = async (mail, password) => {
     return data;
 }
 
-export default getUserData;
+export default login;
