@@ -11,14 +11,12 @@ var _services = require("../../services");
 var logout = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
     return _regenerator["default"].wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            _services.axios.defaults.headers.common['x-access-token'] = "";
-          case 1:
-          case "end":
-            return _context.stop();
-        }
+      while (1) switch (_context.prev = _context.next) {
+        case 0:
+          _services.axios.defaults.headers.common['x-access-token'] = "";
+        case 1:
+        case "end":
+          return _context.stop();
       }
     }, _callee);
   }));
